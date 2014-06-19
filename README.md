@@ -2,7 +2,7 @@
 
 Changes the icon for files in the Tree View and Tabs to reflect the file's type.
 
-![File Type Icons Screenshot](https://s3.amazonaws.com/lee-dohm/file-type-icons.png)
+![Screenshot]((https://raw.githubusercontent.com/lee-dohm/file-type-icons/master/file-type-icons.png)
 
 ## Icons
 
