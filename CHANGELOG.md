@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## **master**
+
+* Add `.biscottoopts` and `.yardopts` to the list of meta-configuration files
+
 ## **v0.1.3** &mdash; *Released: 19 June 2014*
 
 * [#3](https://github.com/lee-dohm/file-type-icons/issues/3) &mdash; Symlinks now have their own icon (the one they have by default)

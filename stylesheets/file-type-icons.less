@@ -25,6 +25,7 @@
 }
 
 // Meta configuration files
+[data-name='.biscottoopts']:before,
 [data-name$='gitignore']:before,
 [data-name$='.gitattributes']:before,
 [data-name$='.gitkeep']:before,
@@ -34,7 +35,8 @@
 [data-name$='.pairs']:before,
 [data-name$='.spectacular']:before,
 [data-name='Procfile']:before,
-[data-name$='.ruby-version']:before {
+[data-name$='.ruby-version']:before,
+[data-name='.yardopts']:before {
   content: '\f02f';                      // http://octicons.github.com/icon/gear/
 }
 
