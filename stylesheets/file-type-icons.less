@@ -1,3 +1,4 @@
+@import "fonts";
 @import "ui-variables";
 
 [data-name]:before {
@@ -21,7 +22,14 @@
 [data-name$='.litcoffee']:before,
 [data-name$='.coffee.md']:before,
 [data-name='Cakefile']:before {
-  content: '\f010';                      // http://octicons.github.com/icon/file-code/
+  .fa;
+  content: '\f0f4';                      // http://fortawesome.github.io/Font-Awesome/icon/coffee/
+}
+
+// JavaScript files
+[data-name$='.js']:before {
+  .mf;
+  content: '\f148';                      // http://mfizz.com/oss/font-mfizz/icon-javascript
 }
 
 // Meta configuration files

@@ -9,7 +9,7 @@ Changes the icon for files in the Tree View and Tabs to reflect the file's type.
 I don't know how to make Octicons work in Markdown yet, so links will have to do :cry:
 
 * Archive files: http://octicons.github.com/icon/file-zip/
-* CoffeeScript files: http://octicons.github.com/icon/file-code/
+* CoffeeScript files: http://fortawesome.github.io/Font-Awesome/icon/coffee/
 * Configuration files: http://octicons.github.com/icon/gear/
 * CTAGS files: http://octicons.github.com/icon/tag/
 * Database files: http://octicons.github.com/icon/database/
@@ -17,6 +17,7 @@ I don't know how to make Octicons work in Markdown yet, so links will have to do
 * `.git` directories: http://octicons.github.com/icon/repo/
 * HTML files: http://octicons.github.com/icon/globe/
 * Images: http://octicons.github.com/icon/file-media/
+* JavaScript files: http://mfizz.com/oss/font-mfizz/icon-javascript
 * JSON, YAML and CSON files: http://octicons.github.com/icon/settings/
 * Lock files: http://octicons.github.com/icon/lock/
 * Log files: http://octicons.github.com/icon/bug/
