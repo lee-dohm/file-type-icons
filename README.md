@@ -26,6 +26,7 @@ I don't know how to make Octicons work in Markdown yet, so links will have to do
 * Shell scripts: http://octicons.github.com/icon/terminal/
 * Source map files: http://octicons.github.com/icon/location/
 * Stylesheets: http://octicons.github.com/icon/paintcan/
+* Symlinks: http://octicons.github.com/icon/file-symlink-file/
 * Templates: http://octicons.github.com/icon/code/
 * TODO files: http://octicons.github.com/icon/checklist/
 * Videos: http://octicons.github.com/icon/device-camera-video/

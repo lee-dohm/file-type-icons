@@ -179,6 +179,13 @@
 // Shell scripts
 [data-path*='bin/']:before,
 [data-name$='.sh']:before,
-[data-name$='.bat']:before {
+[data-name$='.bat']:before,
+[data-name$='.cmd']:before,
+[data-name$='.ps1']:before {
   content: '\f0c8';                      // http://octicons.github.com/icon/terminal/
+}
+
+// Symlinks
+.icon-file-symlink-file:before {
+  content: '\f0b0';                      // http://octicons.github.com/icon/file-symlink-file/
 }
