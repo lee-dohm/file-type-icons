@@ -14,7 +14,7 @@ I don't know how to make Octicons work in Markdown yet, so links will have to do
 * CTAGS files: http://octicons.github.com/icon/tag/
 * Database files: http://octicons.github.com/icon/database/
 * Fonts: http://octicons.github.com/icon/pencil/
-* `.git` directories: http://octicons.github.com/icon/mark-github/
+* `.git` directories: http://octicons.github.com/icon/repo/
 * HTML files: http://octicons.github.com/icon/globe/
 * Images: http://octicons.github.com/icon/file-media/
 * JSON, YAML and CSON files: http://octicons.github.com/icon/settings/
