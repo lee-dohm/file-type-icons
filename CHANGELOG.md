@@ -1,6 +1,6 @@
 # CHANGELOG
 
-## **master**
+## **v0.2.0** &mdash; *Released: 20 June 2014*
 
 * Add `.biscottoopts` and `.yardopts` to the list of meta-configuration files
 * [#2](https://github.com/lee-dohm/file-type-icons/issues/2) &mdash; Added icon for JavaScript and selected a better one for CoffeeScript
