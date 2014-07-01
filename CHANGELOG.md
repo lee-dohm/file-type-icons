@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## **v0.2.1** &mdash; *Released: 30 June 2014*
+
+* [#5](https://github.com/lee-dohm/file-type-icons/issues/5) &mdash; Add non-subpixel antialiased font smoothing to all icon fonts
+
 ## **v0.2.0** &mdash; *Released: 20 June 2014*
 
 * Add `.biscottoopts` and `.yardopts` to the list of meta-configuration files
