@@ -74,7 +74,8 @@
 [data-name='Rakefile']:before,
 [data-name='Guardfile']:before,
 [data-name='Capfile']:before,
-[data-name='pryrc']:before {
+[data-name$='gemrc']:before,
+[data-name$='pryrc']:before {
   content: '\f047';                      // http://octicons.github.com/icon/ruby/
 }
 

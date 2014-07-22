@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## **v0.2.2** &mdash; *Released: 22 July 2014*
+
+* Add `gemrc` to list of Ruby files
+
 ## **v0.2.1** &mdash; *Released: 30 June 2014*
 
 * [#5](https://github.com/lee-dohm/file-type-icons/issues/5) &mdash; Add non-subpixel antialiased font smoothing to all icon fonts
