@@ -1,7 +1,8 @@
 # CHANGELOG
 
-## **v0.2.2** &mdash; *Released: 22 July 2014*
+## **v0.3.0** &mdash; *Released: 11 August 2014*
 
+* PR [#6](https://github.com/lee-dohm/file-type-icons/pull/6) from [@suda](https://github.com/suda) &mdash; Add [an icon](http://fortawesome.github.io/Font-Awesome/icon/flask/) for CoffeeScript and Ruby specification files
 * Add `gemrc` to list of Ruby files
 
 ## **v0.2.1** &mdash; *Released: 30 June 2014*
