@@ -73,7 +73,8 @@
 [data-name='Rakefile']:before,
 [data-name='Guardfile']:before,
 [data-name='Capfile']:before,
-[data-name='pryrc']:before {
+[data-name$='gemrc']:before,
+[data-name$='pryrc']:before {
   content: '\f047';                      // http://octicons.github.com/icon/ruby/
 }
 
@@ -198,4 +199,10 @@
 // Symlinks
 .icon-file-symlink-file:before {
   content: '\f0b0';                      // http://octicons.github.com/icon/file-symlink-file/
+}
+
+// Specs
+[data-name$='-spec.coffee']:before {
+  .fa;
+  content: '\f0c3';                      // http://fortawesome.github.io/Font-Awesome/icon/flask/
 }
