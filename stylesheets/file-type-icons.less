@@ -1,4 +1,5 @@
 @import "fonts";
+@import "icons";
 @import "ui-variables";
 
 [data-name]:before {
@@ -23,14 +24,12 @@
 [data-name$='.litcoffee']:before,
 [data-name$='.coffee.md']:before,
 [data-name='Cakefile']:before {
-  .fa;
-  content: '\f0f4';                      // http://fortawesome.github.io/Font-Awesome/icon/coffee/
+  .coffeescript-icon;
 }
 
 // JavaScript files
 [data-name$='.js']:before {
-  .mf;
-  content: '\f148';                      // http://mfizz.com/oss/font-mfizz/icon-javascript
+  .javascript-icon;
 }
 
 // Meta configuration files
@@ -46,12 +45,12 @@
 [data-name='Procfile']:before,
 [data-name$='.ruby-version']:before,
 [data-name='.yardopts']:before {
-  content: '\f02f';                      // http://octicons.github.com/icon/gear/
+  .settings-icon;
 }
 
 // GIT repo
 [data-name$='.git']:before {
-  content: '\f001';                      // http://octicons.github.com/icon/repo/
+  .repository-icon;
 }
 
 
