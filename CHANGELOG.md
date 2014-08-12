@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## **v0.3.1** &mdash; *Released: 12 August 2014*
+
+* PR [#8](https://github.com/lee-dohm/file-type-icons/pull/8) from [@tcarlsen](https://github.com/tcarlsen) &mdash; Add `.editorconfig` and `.bowerrc` to list of settings files
+
 ## **v0.3.0** &mdash; *Released: 11 August 2014*
 
 * PR [#6](https://github.com/lee-dohm/file-type-icons/pull/6) from [@suda](https://github.com/suda) &mdash; Add [an icon](http://fortawesome.github.io/Font-Awesome/icon/flask/) for CoffeeScript and Ruby specification files
