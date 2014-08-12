@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## **v0.4.0** &mdash; *Released: 12 August 2014*
+
+* [#7](https://github.com/lee-dohm/file-type-icons/issues/7) &mdash; Add Grunt and Gulp icons for their respective files
+* Add [DevIcons font](http://vorillaz.github.io/devicons/#/main)
+
 ## **v0.3.1** &mdash; *Released: 12 August 2014*
 
 * PR [#8](https://github.com/lee-dohm/file-type-icons/pull/8) from [@tcarlsen](https://github.com/tcarlsen) &mdash; Add `.editorconfig` and `.bowerrc` to list of settings files
