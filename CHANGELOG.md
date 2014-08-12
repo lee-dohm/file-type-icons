@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## **v0.4.1** &mdash; *Released: 12 August 2014*
+
+* [#4](https://github.com/lee-dohm/file-type-icons/issues/4) &mdash; Use a better JavaScript icon
+
 ## **v0.4.0** &mdash; *Released: 12 August 2014*
 
 * [#7](https://github.com/lee-dohm/file-type-icons/issues/7) &mdash; Add Grunt and Gulp icons for their respective files
