@@ -58,12 +58,12 @@
 
 // Source map file
 [data-name$='.map']:before {
-  content: '\f060';                      // http://octicons.github.com/icon/location/
+  .map-icon;
 }
 
 // Lock files
 [data-name$='.lock']:before {
-  content: '\f06a';                      // http://octicons.github.com/icon/lock/
+  .lock-icon;
 }
 
 // Ruby files
@@ -77,7 +77,7 @@
 [data-name='Capfile']:before,
 [data-name$='gemrc']:before,
 [data-name$='pryrc']:before {
-  content: '\f047';                      // http://octicons.github.com/icon/ruby/
+  .ruby-icon;
 }
 
 // Stylesheets
@@ -86,14 +86,14 @@
 [data-name$='.sass']:before,
 [data-name$='.scss']:before,
 [data-name$='.less']:before {
-  content: '\f0d1';                      // http://octicons.github.com/icon/paintcan/
+  .stylesheet-icon;
 }
 
 // Archives
 [data-name$='.zip']:before,
 [data-name$='.rar']:before,
 [data-name$='.gz']:before {
-  content: '\f013';                      // http://octicons.github.com/icon/file-zip/
+  .archive-file-icon;
 }
 
 // Templates
@@ -101,31 +101,31 @@
 [data-name$='.haml']:before,
 [data-name$='.erb']:before,
 [data-name$='.hbs']:before {
-  content: '\f05f';                      // http://octicons.github.com/icon/code/
+  .template-icon;
 }
 
 // In project configuration files
 [data-name$='.json']:before,
 [data-name$='.cson']:before,
 [data-name$='.yml']:before  {
-  content: '\f07c';                      // http://octicons.github.com/icon/settings/
+  .configuration-icon;
 }
 
 // DS_Store
 [data-name$='.DS_Store']:before,
 [data-name*='.sublime-']:before {
-  content: '\f02f';                      // http://octicons.github.com/icon/gear/
+  .low-level-settings-icon;
 }
 
 // PDF files
 [data-name$='.pdf']:before {
-  content: '\f014';                      // http://octicons.github.com/icon/file-pdf/
+  .pdf-icon;
 }
 
 // Log files
 .file-icon-log:before,
 [data-name$='.log']:before {
-  content: '\f091';                      // http://octicons.github.com/icon/bug/
+  .log-icon;
 }
 
 // Database & dumps
@@ -133,7 +133,7 @@
 [data-name$='.csv']:before,
 [data-name$='.sqlite3']:before,
 [data-name$='.dump']:before {
-  content: '\f096';                      // http://octicons.github.com/icon/database/
+  .database-icon;
 }
 
 // Fonts files
@@ -141,12 +141,12 @@
 [data-name$='.ttf']:before,
 [data-name$='.otf']:before,
 [data-name$='.eot']:before {
-  content: '\f058';                      // http://octicons.github.com/icon/pencil/
+  .font-icon;
 }
 
 // HTML files
 [data-name$='.html']:before {
-  content: "\f0b6";                      // http://octicons.github.com/icon/globe/
+  .html-icon;
 }
 
 // Ctags files
@@ -156,7 +156,7 @@
 [data-name='.gemtags']:before,
 [data-name='tags']:before,
 [data-name='TAGS']:before {
-  content: '\f015';                      // http://octicons.github.com/icon/tag/
+  .tag-icon;
 }
 
 // Images files
@@ -166,7 +166,7 @@
 [data-name$='.psd']:before,
 [data-name$='.svg']:before,
 [data-name$='.ico']:before {
-  content: '\f012';                      // http://octicons.github.com/icon/file-media/
+  .image-file-icon;
 }
 
 // Videos files
@@ -176,17 +176,17 @@
 [data-name$='.flv']:before,
 [data-name$='.swf']:before,
 [data-name$='.ogg']:before {
-  content: '\f057';                      // http://octicons.github.com/icon/device-camera-video/
+  .video-file-icon;
 }
 
 // Markdown files
 [data-name$='.md']:before {
-  content: '\f0c9'                       // http://octicons.github.com/icon/markdown/
+  .markdown-icon;
 }
 
 // Todos
 [data-name*='todo']:before {
-  content: '\f076';                      // http://octicons.github.com/icon/checklist/
+  .todo-icon;
 }
 
 // Shell scripts
@@ -195,19 +195,18 @@
 [data-name$='.bat']:before,
 [data-name$='.cmd']:before,
 [data-name$='.ps1']:before {
-  content: '\f0c8';                      // http://octicons.github.com/icon/terminal/
+  .shell-script-icon;
 }
 
 // Symlinks
 .icon-file-symlink-file:before {
-  content: '\f0b0';                      // http://octicons.github.com/icon/file-symlink-file/
+  .symlink-icon;
 }
 
 // Specs
 [data-name$='spec.rb']:before,
 [data-name$='-spec.coffee']:before {
-  .fa;
-  content: '\f0c3';                      // http://fortawesome.github.io/Font-Awesome/icon/flask/
+  .test-file-icon;
 }
 
 // Grunt
