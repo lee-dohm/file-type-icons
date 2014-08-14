@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## **v0.4.2** &mdash; *Released: 13 August 2014*
+
+* [#10](https://github.com/lee-dohm/file-type-icons/issues/10) &mdash; Fix alignment and size on DevIcons icons
+
 ## **v0.4.1** &mdash; *Released: 12 August 2014*
 
 * [#4](https://github.com/lee-dohm/file-type-icons/issues/4) &mdash; Use a better JavaScript icon
