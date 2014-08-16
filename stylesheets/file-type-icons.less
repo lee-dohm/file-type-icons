@@ -150,12 +150,12 @@
 }
 
 // Ctags files
-[data-name='.ctags']:before,
-[data-name='ctags']:before,
-[data-name='.tags']:before,
-[data-name='.gemtags']:before,
-[data-name='tags']:before,
-[data-name='TAGS']:before {
+:not(.icon-file-directory)[data-name='.ctags']:before,
+:not(.icon-file-directory)[data-name='ctags']:before,
+:not(.icon-file-directory)[data-name='.tags']:before,
+:not(.icon-file-directory)[data-name='.gemtags']:before,
+:not(.icon-file-directory)[data-name='tags']:before,
+:not(.icon-file-directory)[data-name='TAGS']:before {
   .tag-icon;
 }
 

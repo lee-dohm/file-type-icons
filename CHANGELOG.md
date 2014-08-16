@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## **v0.4.3** &mdash; *Released: 15 August 2014*
+
+* [#11](https://github.com/lee-dohm/file-type-icons/issues/11) &mdash; Directories matching "tags" have the folder icon again
+
 ## **v0.4.2** &mdash; *Released: 13 August 2014*
 
 * [#10](https://github.com/lee-dohm/file-type-icons/issues/10) &mdash; Fix alignment and size on DevIcons icons
