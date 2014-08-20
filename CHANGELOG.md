@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## **master** &mdash; *Unreleased*
+
+* [#15](https://github.com/lee-dohm/file-type-icons/issues/15) &mdash; :bug::memo: Update JS icon link in the README
+
 ## **v0.4.3** &mdash; *Released: 15 August 2014*
 
 * [#11](https://github.com/lee-dohm/file-type-icons/issues/11) &mdash; Directories matching "tags" have the folder icon again
