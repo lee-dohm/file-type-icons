@@ -1,6 +1,6 @@
 # CHANGELOG
 
-## **master** &mdash; *Unreleased*
+## **v0.4.4** &mdash; *Released: 23 September 2014*
 
 * [#12](https://github.com/lee-dohm/file-type-icons/issues/15) &mdash; :bug: Remove up-sizing of DevIcons font that was causing text misalignment in tabs
 * [#15](https://github.com/lee-dohm/file-type-icons/issues/15) &mdash; :bug::memo: Update JS icon link in the README
