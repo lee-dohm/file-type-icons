@@ -1,9 +1,13 @@
 # CHANGELOG
 
+## **v0.4.5** &mdash; *Released: 14 October 2014*
+
+* :bug: [#17](https://github.com/lee-dohm/file-type-icons/issues/15) &mdash; Match `[Gg]ulpfile.(js|coffee)` for Gulp icon
+
 ## **v0.4.4** &mdash; *Released: 23 September 2014*
 
-* [#12](https://github.com/lee-dohm/file-type-icons/issues/15) &mdash; :bug: Remove up-sizing of DevIcons font that was causing text misalignment in tabs
-* [#15](https://github.com/lee-dohm/file-type-icons/issues/15) &mdash; :bug::memo: Update JS icon link in the README
+* :bug: [#12](https://github.com/lee-dohm/file-type-icons/issues/15) &mdash; Remove up-sizing of DevIcons font that was causing text misalignment in tabs
+* :bug: [#15](https://github.com/lee-dohm/file-type-icons/issues/15) &mdash; :memo: Update JS icon link in the README
 
 ## **v0.4.3** &mdash; *Released: 15 August 2014*
 
