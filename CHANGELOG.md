@@ -1,8 +1,9 @@
 # CHANGELOG
 
-## **v0.4.5** &mdash; *Released: 14 October 2014*
+## **v0.5.1** &mdash; *Released: 14 October 2014*
 
 * :bug: [#17](https://github.com/lee-dohm/file-type-icons/issues/15) &mdash; Match `[Gg]ulpfile.(js|coffee)` for Gulp icon
+* Skipped v0.5.0 due to publishing error
 
 ## **v0.4.4** &mdash; *Released: 23 September 2014*
 
