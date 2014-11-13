@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## **v0.5.2** &mdash; *Released: 13 November 2014*
+
+* PR [#18](https://github.com/lee-dohm/file-type-icons/pull/18) by [@swrobel](https://github.com/swrobel)
+    * Add slim as a template type
+
 ## **v0.5.1** &mdash; *Released: 14 October 2014*
 
 * :bug: [#17](https://github.com/lee-dohm/file-type-icons/issues/15) &mdash; Match `[Gg]ulpfile.(js|coffee)` for Gulp icon
