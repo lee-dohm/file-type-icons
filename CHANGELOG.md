@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## **v0.5.3** &mdash; *Released: 22 December 2014*
+
+* [#19](https://github.com/lee-dohm/file-type-icons/issues/19) &mdash; Added [Twig](http://twig.sensiolabs.org) files to the list of templates
+
 ## **v0.5.2** &mdash; *Released: 13 November 2014*
 
 * PR [#18](https://github.com/lee-dohm/file-type-icons/pull/18) by [@swrobel](https://github.com/swrobel)
