@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## **v0.5.4** &mdash; *Released: 25 January 2015*
+
+* Fixed deprecations
+
 ## **v0.5.3** &mdash; *Released: 22 December 2014*
 
 * [#19](https://github.com/lee-dohm/file-type-icons/issues/19) &mdash; Added [Twig](http://twig.sensiolabs.org) files to the list of templates
