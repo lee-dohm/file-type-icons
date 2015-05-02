@@ -1,4 +1,4 @@
-Copyright &copy; 2014 [Lee Dohm](http://www.lee-dohm.com)
+Copyright &copy; 2014-2015 [Lee Dohm](http://www.lee-dohm.com)
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
@@ -18,3 +18,15 @@ NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
 LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
 OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
 WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+## Devicons
+
+Devicons is used under the [MIT License](http://opensource.org/licenses/MIT)
+
+## Font Awesome
+
+Font Awesome is used under the [SIL OFL 1.1](http://scripts.sil.org/OFL)
+
+## Font Mfizz
+
+Font Mfizz is used under the [MIT License](http://opensource.org/licenses/MIT)

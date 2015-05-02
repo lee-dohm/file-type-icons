@@ -1,5 +1,12 @@
 # CHANGELOG
 
+## **v0.6.0** &mdash; *Released: 1 May 2015*
+
+* Preparation for Deprecation Day
+* Updated Devicons to latest master
+* Updated Font-Awesome to v4.3.0
+* Updated to include License information for the fonts used
+
 ## **v0.5.4** &mdash; *Released: 25 January 2015*
 
 * Fixed deprecations

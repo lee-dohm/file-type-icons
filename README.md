@@ -4,7 +4,11 @@ Changes the icon for files in the Tree View and Tabs to reflect the file's type.
 
 ![Screenshot](https://raw.githubusercontent.com/lee-dohm/file-type-icons/master/file-type-icons.png)
 
-## Icons
+## Usage
+
+Just install and enjoy!
+
+### Icons
 
 This is just a sampling of the icons in the set for now. (I don't know how to make Octicons work in Markdown yet, so links will have to do :cry:)
 
@@ -31,3 +35,7 @@ This is just a sampling of the icons in the set for now. (I don't know how to ma
 * Templates: http://octicons.github.com/icon/code/
 * TODO files: http://octicons.github.com/icon/checklist/
 * Videos: http://octicons.github.com/icon/device-camera-video/
+
+## Copyright
+
+Copyright &copy; 2014-2015 [Lee Dohm](http://www.lee-dohm.com), [Lifted Studios](http://www.liftedstudios.com). See [LICENSE](https://github.com/lee-dohm/auto-copyright/blob/master/LICENSE.md) for details.
