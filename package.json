@@ -1,6 +1,6 @@
 {
   "name": "file-type-icons",
-  "version": "0.5.4",
+  "version": "0.6.0",
   "description": "Changes the icon for files in the Tree View and Tabs to reflect the file's type",
   "author": "Lee Dohm <lee@lee-dohm.com>",
   "keywords": [
