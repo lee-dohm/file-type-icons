@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## **v0.7.0** &mdash; *Released: 12 June 2015*
+
+* Updated Devicons to v1.8.0
+* Added icon for Elixir files &mdash; http://fortawesome.github.io/Font-Awesome/icon/tint/
+
 ## **v0.6.0** &mdash; *Released: 1 May 2015*
 
 * Preparation for Deprecation Day
