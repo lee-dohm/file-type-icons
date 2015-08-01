@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## **v0.7.1** &mdash; *Released: 31 July 2015*
+
+* Added icon for Go files
+
 ## **v0.7.0** &mdash; *Released: 12 June 2015*
 
 * Updated Devicons to v1.8.0
