@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## **master** &mdash; *Unreleased*
+
+* Added icon for Java files
+
 ## **v0.7.1** &mdash; *Released: 31 July 2015*
 
 * Added icon for Go files

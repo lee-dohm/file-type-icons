@@ -27,6 +27,10 @@
   .coffeescript-icon;
 }
 
+[data-name$='.java']:before {
+  .java-icon;
+}
+
 // JavaScript files
 [data-name$='.js']:before {
   .javascript-icon;
@@ -235,6 +239,13 @@
   .go-icon;
 }
 
-.list-tree .icon[data-name$='.go']:before {
-  top: 0px !important;
+// Fixup for devicons
+.list-tree {
+  .icon[data-name$='.go']:before {
+    top: 0px !important;
+  }
+
+  .icon[data-name$='.java']:before {
+    top: -1px !important;
+  }
 }
