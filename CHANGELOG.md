@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## **v0.7.3** &mdash; *Released: 20 August 2015*
+
+* :bug: Moved declaration of specs and tests icon after all other icons so that it overrides the normal file icon for those languages
+
 ## **v0.7.2** &mdash; *Released: 20 August 2015*
 
 * Added icon for Java files
