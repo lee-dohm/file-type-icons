@@ -3,6 +3,7 @@
 ## **master** &mdash; *Unreleased*
 
 * Added icon for Java files
+* Added Elixir specs and tests to the list of files to be given the flask icon
 
 ## **v0.7.1** &mdash; *Released: 31 July 2015*
 
