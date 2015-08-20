@@ -1,6 +1,6 @@
 # CHANGELOG
 
-## **master** &mdash; *Unreleased*
+## **v0.7.2** &mdash; *Released: 20 August 2015*
 
 * Added icon for Java files
 * Added Elixir specs and tests to the list of files to be given the flask icon
