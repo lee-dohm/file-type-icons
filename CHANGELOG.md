@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## **v0.7.4** &mdash; *Released: 13 November 2015*
+
+* PR [#24](https://github.com/lee-dohm/file-type-icons/pull/24) by [@tonatiuh](https://github.com/tonatiuh)
+    * Add icon for Cucumber files
+
 ## **v0.7.3** &mdash; *Released: 20 August 2015*
 
 * :bug: Moved declaration of specs and tests icon after all other icons so that it overrides the normal file icon for those languages

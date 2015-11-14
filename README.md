@@ -16,6 +16,7 @@ This is just a sampling of the icons in the set for now. (I don't know how to ma
 * CoffeeScript files: http://fortawesome.github.io/Font-Awesome/icon/coffee/
 * Configuration files: http://octicons.github.com/icon/gear/
 * CTAGS files: http://octicons.github.com/icon/tag/
+* Cucumber files: https://octicons.github.com/icon/browser/
 * Database files: http://octicons.github.com/icon/database/
 * Fonts: http://octicons.github.com/icon/pencil/
 * `.git` directories: http://octicons.github.com/icon/repo/
