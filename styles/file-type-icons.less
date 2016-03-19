@@ -2,257 +2,281 @@
 @import "icons";
 @import "ui-variables";
 
-[data-name]:before {
-  margin-right: 5px;
-  position: relative;
-  top: 1px;
-  font-family: 'Octicons Regular';
-  font-weight: normal;
-  font-style: normal;
-  display: inline-block;
-  line-height: @component-line-height;
-  text-align: center;
-  text-decoration: none;
-  font-size: @component-icon-size;
-  width: @component-icon-size;
-  height: @component-icon-size;
-  -webkit-font-smoothing: antialiased;
+.tab {
+  [data-name]:before {
+    top: inherit;
+  }
 }
 
-// Coffeescript files
-[data-name$='.coffee']:before,
-[data-name$='.litcoffee']:before,
-[data-name$='.coffee.md']:before,
-[data-name='Cakefile']:before {
-  .coffeescript-icon;
-}
-
-[data-name$='.java']:before {
-  .java-icon;
-}
-
-// JavaScript files
-[data-name$='.js']:before {
-  .javascript-icon;
-}
-
-// Meta configuration files
-[data-name='.biscottoopts']:before,
-[data-name$='gitignore']:before,
-[data-name$='.gitattributes']:before,
-[data-name$='.gitkeep']:before,
-[data-name$='.npmignore']:before,
-[data-name$='.npmrc']:before,
-[data-name$='.rspec']:before,
-[data-name$='.pairs']:before,
-[data-name$='.spectacular']:before,
-[data-name='Procfile']:before,
-[data-name$='.ruby-version']:before,
-[data-name='.yardopts']:before,
-[data-name$='.editorconfig']:before,
-[data-name$='.bowerrc']:before {
-  .settings-icon;
-}
-
-// GIT repo
-[data-name$='.git']:before {
-  .repository-icon;
-}
-
-
-// Source map file
-[data-name$='.map']:before {
-  .map-icon;
-}
-
-// Lock files
-[data-name$='.lock']:before {
-  .lock-icon;
-}
-
-// Ruby files
-[data-name$='.rb']:before,
-[data-name$='.ru']:before,
-[data-name$='.rake']:before,
-[data-name$='.gemspec']:before,
-[data-name='Gemfile']:before,
-[data-name='Rakefile']:before,
-[data-name='Guardfile']:before,
-[data-name='Capfile']:before,
-[data-name$='gemrc']:before,
-[data-name$='pryrc']:before {
-  .ruby-icon;
-}
-
-// Stylesheets
-[data-name$='.styl']:before,
-[data-name$='.css']:before,
-[data-name$='.sass']:before,
-[data-name$='.scss']:before,
-[data-name$='.less']:before {
-  .stylesheet-icon;
-}
-
-// Archives
-[data-name$='.zip']:before,
-[data-name$='.rar']:before,
-[data-name$='.gz']:before {
-  .archive-file-icon;
-}
-
-// Templates
-[data-name$='.jade']:before,
-[data-name$='.haml']:before,
-[data-name$='.erb']:before,
-[data-name$='.hbs']:before,
-[data-name$='.slim']:before,
-[data-name$='.twig']:before {
-  .template-icon;
-}
-
-// In project configuration files
-[data-name$='.json']:before,
-[data-name$='.cson']:before,
-[data-name$='.yml']:before {
-  .configuration-icon;
-}
-
-// DS_Store
-[data-name$='.DS_Store']:before,
-[data-name*='.sublime-']:before {
-  .low-level-settings-icon;
-}
-
-// PDF files
-[data-name$='.pdf']:before {
-  .pdf-icon;
-}
-
-// Log files
-.file-icon-log:before,
-[data-name$='.log']:before {
-  .log-icon;
-}
-
-// Database & dumps
-[data-name$='.sqlite']:before,
-[data-name$='.csv']:before,
-[data-name$='.sqlite3']:before,
-[data-name$='.dump']:before {
-  .database-icon;
-}
-
-// Fonts files
-[data-name$='.woff']:before,
-[data-name$='.ttf']:before,
-[data-name$='.otf']:before,
-[data-name$='.eot']:before {
-  .font-icon;
-}
-
-// HTML files
-[data-name$='.html']:before {
-  .html-icon;
-}
-
-// Ctags files
-:not(.icon-file-directory)[data-name='.ctags']:before,
-:not(.icon-file-directory)[data-name='ctags']:before,
-:not(.icon-file-directory)[data-name='.tags']:before,
-:not(.icon-file-directory)[data-name='.gemtags']:before,
-:not(.icon-file-directory)[data-name='tags']:before,
-:not(.icon-file-directory)[data-name='TAGS']:before {
-  .tag-icon;
-}
-
-// Images files
-[data-name$='.jpg']:before,
-[data-name$='.png']:before,
-[data-name$='.gif']:before,
-[data-name$='.psd']:before,
-[data-name$='.svg']:before,
-[data-name$='.ico']:before {
-  .image-file-icon;
-}
-
-// Videos files
-[data-name$='.mpg']:before,
-[data-name$='.avi']:before,
-[data-name$='.mov']:before,
-[data-name$='.flv']:before,
-[data-name$='.swf']:before,
-[data-name$='.ogg']:before {
-  .video-file-icon;
-}
-
-// Markdown files
-[data-name$='.md']:before {
-  .markdown-icon;
-}
-
-// Todos
-[data-name*='todo']:before {
-  .todo-icon;
-}
-
-// Shell scripts
-[data-path*='bin/']:before,
-[data-name$='.sh']:before,
-[data-name$='.bat']:before,
-[data-name$='.cmd']:before,
-[data-name$='.ps1']:before {
-  .shell-script-icon;
-}
-
-// Symlinks
-.icon-file-symlink-file:before {
-  .symlink-icon;
-}
-
-// Grunt
-[data-name='Gruntfile']:before {
-  .grunt-icon;
-}
-
-// Gulp.js
-[data-name='Gulpfile.coffee']:before,
-[data-name='gulpfile.coffee']:before,
-[data-name='Gulpfile.js']:before,
-[data-name='gulpfile.js']:before {
-  .gulp-icon;
-}
-
-// Elixir
-[data-name$='.ex']:before,
-[data-name$='.exs']:before {
-  .elixir-icon;
-}
-
-// Go
-[data-name$='.go']:before {
-  .go-icon;
-}
-
-// Specs
-[data-name$='spec.rb']:before,
-[data-name$='-spec.coffee']:before,
-[data-name$='spec.exs']:before,
-[data-name$='test.exs']:before {
-  .test-file-icon;
-}
-
-// Cucumber files
-[data-name$='.feature']:before {
-  .cucumber-icon;
-}
-
-// Fixup for devicons
-.list-tree {
-  .icon[data-name$='.go']:before {
-    top: 0px !important;
+.tree-view:not(.nuclide-file-tree) {
+  [data-name]:before {
+    top: 4px;
   }
 
-  .icon[data-name$='.java']:before {
-    top: -1px !important;
+  .icon-repo:before {
+    top: 11px;
+  }
+}
+
+.tab,
+.tree-view:not(.nuclide-file-tree) {
+  [data-name]:before {
+    margin-right: 5px;
+    position: relative;
+    font-family: 'Octicons Regular';
+    font-weight: normal;
+    font-style: normal;
+    display: inline-block;
+    line-height: @component-line-height;
+    text-align: center;
+    text-decoration: none;
+    font-size: @component-icon-size;
+    width: @component-icon-size;
+    height: @component-icon-size;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  // Coffeescript files
+  [data-name$='.coffee']:before,
+  [data-name$='.litcoffee']:before,
+  [data-name$='.coffee.md']:before,
+  [data-name='Cakefile']:before {
+    .coffeescript-icon;
+  }
+
+  [data-name$='.java']:before {
+    .java-icon;
+  }
+
+  // JavaScript files
+  [data-name$='.js']:before {
+    .javascript-icon;
+  }
+
+  // Meta configuration files
+  [data-name='.biscottoopts']:before,
+  [data-name$='gitignore']:before,
+  [data-name$='.gitattributes']:before,
+  [data-name$='.gitkeep']:before,
+  [data-name$='.npmignore']:before,
+  [data-name$='.npmrc']:before,
+  [data-name$='.rspec']:before,
+  [data-name$='.pairs']:before,
+  [data-name$='.spectacular']:before,
+  [data-name='Procfile']:before,
+  [data-name$='.ruby-version']:before,
+  [data-name='.yardopts']:before,
+  [data-name$='.editorconfig']:before,
+  [data-name$='.bowerrc']:before {
+    .settings-icon;
+  }
+
+  // GIT repo
+  [data-name$='.git']:before {
+    .repository-icon;
+  }
+
+
+  // Source map file
+  [data-name$='.map']:before {
+    .map-icon;
+  }
+
+  // Lock files
+  [data-name$='.lock']:before {
+    .lock-icon;
+  }
+
+  // Ruby files
+  [data-name$='.rb']:before,
+  [data-name$='.ru']:before,
+  [data-name$='.rake']:before,
+  [data-name$='.gemspec']:before,
+  [data-name='Gemfile']:before,
+  [data-name='Rakefile']:before,
+  [data-name='Guardfile']:before,
+  [data-name='Capfile']:before,
+  [data-name$='gemrc']:before,
+  [data-name$='pryrc']:before {
+    .ruby-icon;
+  }
+
+  // Stylesheets
+  [data-name$='.styl']:before,
+  [data-name$='.css']:before,
+  [data-name$='.sass']:before,
+  [data-name$='.scss']:before,
+  [data-name$='.less']:before {
+    .stylesheet-icon;
+  }
+
+  // Archives
+  [data-name$='.zip']:before,
+  [data-name$='.rar']:before,
+  [data-name$='.gz']:before {
+    .archive-file-icon;
+  }
+
+  // Templates
+  [data-name$='.jade']:before,
+  [data-name$='.haml']:before,
+  [data-name$='.erb']:before,
+  [data-name$='.hbs']:before,
+  [data-name$='.slim']:before,
+  [data-name$='.twig']:before {
+    .template-icon;
+  }
+
+  // In project configuration files
+  [data-name$='.json']:before,
+  [data-name$='.cson']:before,
+  [data-name$='.yml']:before {
+    .configuration-icon;
+  }
+
+  // DS_Store
+  [data-name$='.DS_Store']:before,
+  [data-name*='.sublime-']:before {
+    .low-level-settings-icon;
+  }
+
+  // PDF files
+  [data-name$='.pdf']:before {
+    .pdf-icon;
+  }
+
+  // Log files
+  .file-icon-log:before,
+  [data-name$='.log']:before {
+    .log-icon;
+  }
+
+  // Database & dumps
+  [data-name$='.sqlite']:before,
+  [data-name$='.csv']:before,
+  [data-name$='.sqlite3']:before,
+  [data-name$='.dump']:before {
+    .database-icon;
+  }
+
+  // Fonts files
+  [data-name$='.woff']:before,
+  [data-name$='.ttf']:before,
+  [data-name$='.otf']:before,
+  [data-name$='.eot']:before {
+    .font-icon;
+  }
+
+  // HTML files
+  [data-name$='.html']:before {
+    .html-icon;
+  }
+
+  // Ctags files
+  :not(.icon-file-directory)[data-name='.ctags']:before,
+  :not(.icon-file-directory)[data-name='ctags']:before,
+  :not(.icon-file-directory)[data-name='.tags']:before,
+  :not(.icon-file-directory)[data-name='.gemtags']:before,
+  :not(.icon-file-directory)[data-name='tags']:before,
+  :not(.icon-file-directory)[data-name='TAGS']:before {
+    .tag-icon;
+  }
+
+  // Images files
+  [data-name$='.jpg']:before,
+  [data-name$='.png']:before,
+  [data-name$='.gif']:before,
+  [data-name$='.psd']:before,
+  [data-name$='.svg']:before,
+  [data-name$='.ico']:before {
+    .image-file-icon;
+  }
+
+  // Videos files
+  [data-name$='.mpg']:before,
+  [data-name$='.avi']:before,
+  [data-name$='.mov']:before,
+  [data-name$='.flv']:before,
+  [data-name$='.swf']:before,
+  [data-name$='.ogg']:before {
+    .video-file-icon;
+  }
+
+  // Markdown files
+  [data-name$='.md']:before {
+    .markdown-icon;
+  }
+
+  .tab {
+    [data-name$='.md']:before {
+      top: 0;
+    }
+  }
+
+  // Todos
+  [data-name*='todo']:before {
+    .todo-icon;
+  }
+
+  // Shell scripts
+  [data-path*='bin/']:before,
+  [data-name$='.sh']:before,
+  [data-name$='.bat']:before,
+  [data-name$='.cmd']:before,
+  [data-name$='.ps1']:before {
+    .shell-script-icon;
+  }
+
+  // Symlinks
+  .icon-file-symlink-file:before {
+    .symlink-icon;
+  }
+
+  // Grunt
+  [data-name='Gruntfile']:before {
+    .grunt-icon;
+  }
+
+  // Gulp.js
+  [data-name='Gulpfile.coffee']:before,
+  [data-name='gulpfile.coffee']:before,
+  [data-name='Gulpfile.js']:before,
+  [data-name='gulpfile.js']:before {
+    .gulp-icon;
+  }
+
+  // Elixir
+  [data-name$='.ex']:before,
+  [data-name$='.exs']:before {
+    .elixir-icon;
+  }
+
+  // Go
+  [data-name$='.go']:before {
+    .go-icon;
+  }
+
+  // Specs
+  [data-name$='spec.rb']:before,
+  [data-name$='-spec.coffee']:before,
+  [data-name$='spec.exs']:before,
+  [data-name$='test.exs']:before {
+    .test-file-icon;
+  }
+
+  // Cucumber files
+  [data-name$='.feature']:before {
+    .cucumber-icon;
+  }
+
+  // Fixup for devicons
+  .list-tree {
+    .icon[data-name$='.go']:before {
+      top: 0px !important;
+    }
+
+    .icon[data-name$='.java']:before {
+      top: -1px !important;
+    }
   }
 }
