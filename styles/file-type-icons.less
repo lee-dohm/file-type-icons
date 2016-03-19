@@ -2,7 +2,7 @@
 @import "icons";
 @import "ui-variables";
 
-[data-name]:before {
+span.icon[data-name]:before {
   margin-right: 5px;
   position: relative;
   top: 1px;
@@ -19,188 +19,198 @@
   -webkit-font-smoothing: antialiased;
 }
 
+.nuclide-file-tree {
+  span.icon[data-name]:before {
+    top: 4px;
+  }
+
+  span.icon.icon-briefcase[data-name]:before {
+    top: 11px;
+  }
+}
+
 // Coffeescript files
-[data-name$='.coffee']:before,
-[data-name$='.litcoffee']:before,
-[data-name$='.coffee.md']:before,
-[data-name='Cakefile']:before {
+span.icon[data-name$='.coffee']:before,
+span.icon[data-name$='.litcoffee']:before,
+span.icon[data-name$='.coffee.md']:before,
+span.icon[data-name='Cakefile']:before {
   .coffeescript-icon;
 }
 
-[data-name$='.java']:before {
+span.icon[data-name$='.java']:before {
   .java-icon;
 }
 
 // JavaScript files
-[data-name$='.js']:before {
+span.icon[data-name$='.js']:before {
   .javascript-icon;
 }
 
 // Meta configuration files
-[data-name='.biscottoopts']:before,
-[data-name$='gitignore']:before,
-[data-name$='.gitattributes']:before,
-[data-name$='.gitkeep']:before,
-[data-name$='.npmignore']:before,
-[data-name$='.npmrc']:before,
-[data-name$='.rspec']:before,
-[data-name$='.pairs']:before,
-[data-name$='.spectacular']:before,
-[data-name='Procfile']:before,
-[data-name$='.ruby-version']:before,
-[data-name='.yardopts']:before,
-[data-name$='.editorconfig']:before,
-[data-name$='.bowerrc']:before {
+span.icon[data-name='.biscottoopts']:before,
+span.icon[data-name$='gitignore']:before,
+span.icon[data-name$='.gitattributes']:before,
+span.icon[data-name$='.gitkeep']:before,
+span.icon[data-name$='.npmignore']:before,
+span.icon[data-name$='.npmrc']:before,
+span.icon[data-name$='.rspec']:before,
+span.icon[data-name$='.pairs']:before,
+span.icon[data-name$='.spectacular']:before,
+span.icon[data-name='Procfile']:before,
+span.icon[data-name$='.ruby-version']:before,
+span.icon[data-name='.yardopts']:before,
+span.icon[data-name$='.editorconfig']:before,
+span.icon[data-name$='.bowerrc']:before {
   .settings-icon;
 }
 
 // GIT repo
-[data-name$='.git']:before {
+span.icon[data-name$='.git']:before {
   .repository-icon;
 }
 
 
 // Source map file
-[data-name$='.map']:before {
+span.icon[data-name$='.map']:before {
   .map-icon;
 }
 
 // Lock files
-[data-name$='.lock']:before {
+span.icon[data-name$='.lock']:before {
   .lock-icon;
 }
 
 // Ruby files
-[data-name$='.rb']:before,
-[data-name$='.ru']:before,
-[data-name$='.rake']:before,
-[data-name$='.gemspec']:before,
-[data-name='Gemfile']:before,
-[data-name='Rakefile']:before,
-[data-name='Guardfile']:before,
-[data-name='Capfile']:before,
-[data-name$='gemrc']:before,
-[data-name$='pryrc']:before {
+span.icon[data-name$='.rb']:before,
+span.icon[data-name$='.ru']:before,
+span.icon[data-name$='.rake']:before,
+span.icon[data-name$='.gemspec']:before,
+span.icon[data-name='Gemfile']:before,
+span.icon[data-name='Rakefile']:before,
+span.icon[data-name='Guardfile']:before,
+span.icon[data-name='Capfile']:before,
+span.icon[data-name$='gemrc']:before,
+span.icon[data-name$='pryrc']:before {
   .ruby-icon;
 }
 
 // Stylesheets
-[data-name$='.styl']:before,
-[data-name$='.css']:before,
-[data-name$='.sass']:before,
-[data-name$='.scss']:before,
-[data-name$='.less']:before {
+span.icon[data-name$='.styl']:before,
+span.icon[data-name$='.css']:before,
+span.icon[data-name$='.sass']:before,
+span.icon[data-name$='.scss']:before,
+span.icon[data-name$='.less']:before {
   .stylesheet-icon;
 }
 
 // Archives
-[data-name$='.zip']:before,
-[data-name$='.rar']:before,
-[data-name$='.gz']:before {
+span.icon[data-name$='.zip']:before,
+span.icon[data-name$='.rar']:before,
+span.icon[data-name$='.gz']:before {
   .archive-file-icon;
 }
 
 // Templates
-[data-name$='.jade']:before,
-[data-name$='.haml']:before,
-[data-name$='.erb']:before,
-[data-name$='.hbs']:before,
-[data-name$='.slim']:before,
-[data-name$='.twig']:before {
+span.icon[data-name$='.jade']:before,
+span.icon[data-name$='.haml']:before,
+span.icon[data-name$='.erb']:before,
+span.icon[data-name$='.hbs']:before,
+span.icon[data-name$='.slim']:before,
+span.icon[data-name$='.twig']:before {
   .template-icon;
 }
 
 // In project configuration files
-[data-name$='.json']:before,
-[data-name$='.cson']:before,
-[data-name$='.yml']:before {
+span.icon[data-name$='.json']:before,
+span.icon[data-name$='.cson']:before,
+span.icon[data-name$='.yml']:before {
   .configuration-icon;
 }
 
 // DS_Store
-[data-name$='.DS_Store']:before,
-[data-name*='.sublime-']:before {
+span.icon[data-name$='.DS_Store']:before,
+span.icon[data-name*='.sublime-']:before {
   .low-level-settings-icon;
 }
 
 // PDF files
-[data-name$='.pdf']:before {
+span.icon[data-name$='.pdf']:before {
   .pdf-icon;
 }
 
 // Log files
 .file-icon-log:before,
-[data-name$='.log']:before {
+span.icon[data-name$='.log']:before {
   .log-icon;
 }
 
 // Database & dumps
-[data-name$='.sqlite']:before,
-[data-name$='.csv']:before,
-[data-name$='.sqlite3']:before,
-[data-name$='.dump']:before {
+span.icon[data-name$='.sqlite']:before,
+span.icon[data-name$='.csv']:before,
+span.icon[data-name$='.sqlite3']:before,
+span.icon[data-name$='.dump']:before {
   .database-icon;
 }
 
 // Fonts files
-[data-name$='.woff']:before,
-[data-name$='.ttf']:before,
-[data-name$='.otf']:before,
-[data-name$='.eot']:before {
+span.icon[data-name$='.woff']:before,
+span.icon[data-name$='.ttf']:before,
+span.icon[data-name$='.otf']:before,
+span.icon[data-name$='.eot']:before {
   .font-icon;
 }
 
 // HTML files
-[data-name$='.html']:before {
+span.icon[data-name$='.html']:before {
   .html-icon;
 }
 
 // Ctags files
-:not(.icon-file-directory)[data-name='.ctags']:before,
-:not(.icon-file-directory)[data-name='ctags']:before,
-:not(.icon-file-directory)[data-name='.tags']:before,
-:not(.icon-file-directory)[data-name='.gemtags']:before,
-:not(.icon-file-directory)[data-name='tags']:before,
-:not(.icon-file-directory)[data-name='TAGS']:before {
+span.icon:not(.icon-file-directory)[data-name='.ctags']:before,
+span.icon:not(.icon-file-directory)[data-name='ctags']:before,
+span.icon:not(.icon-file-directory)[data-name='.tags']:before,
+span.icon:not(.icon-file-directory)[data-name='.gemtags']:before,
+span.icon:not(.icon-file-directory)[data-name='tags']:before,
+span.icon:not(.icon-file-directory)[data-name='TAGS']:before {
   .tag-icon;
 }
 
 // Images files
-[data-name$='.jpg']:before,
-[data-name$='.png']:before,
-[data-name$='.gif']:before,
-[data-name$='.psd']:before,
-[data-name$='.svg']:before,
-[data-name$='.ico']:before {
+span.icon[data-name$='.jpg']:before,
+span.icon[data-name$='.png']:before,
+span.icon[data-name$='.gif']:before,
+span.icon[data-name$='.psd']:before,
+span.icon[data-name$='.svg']:before,
+span.icon[data-name$='.ico']:before {
   .image-file-icon;
 }
 
 // Videos files
-[data-name$='.mpg']:before,
-[data-name$='.avi']:before,
-[data-name$='.mov']:before,
-[data-name$='.flv']:before,
-[data-name$='.swf']:before,
-[data-name$='.ogg']:before {
+span.icon[data-name$='.mpg']:before,
+span.icon[data-name$='.avi']:before,
+span.icon[data-name$='.mov']:before,
+span.icon[data-name$='.flv']:before,
+span.icon[data-name$='.swf']:before,
+span.icon[data-name$='.ogg']:before {
   .video-file-icon;
 }
 
 // Markdown files
-[data-name$='.md']:before {
+span.icon[data-name$='.md']:before {
   .markdown-icon;
 }
 
 // Todos
-[data-name*='todo']:before {
+span.icon[data-name*='todo']:before {
   .todo-icon;
 }
 
 // Shell scripts
-[data-path*='bin/']:before,
-[data-name$='.sh']:before,
-[data-name$='.bat']:before,
-[data-name$='.cmd']:before,
-[data-name$='.ps1']:before {
+span.icon[data-path*='bin/']:before,
+span.icon[data-name$='.sh']:before,
+span.icon[data-name$='.bat']:before,
+span.icon[data-name$='.cmd']:before,
+span.icon[data-name$='.ps1']:before {
   .shell-script-icon;
 }
 
@@ -210,39 +220,39 @@
 }
 
 // Grunt
-[data-name='Gruntfile']:before {
+span.icon[data-name='Gruntfile']:before {
   .grunt-icon;
 }
 
 // Gulp.js
-[data-name='Gulpfile.coffee']:before,
-[data-name='gulpfile.coffee']:before,
-[data-name='Gulpfile.js']:before,
-[data-name='gulpfile.js']:before {
+span.icon[data-name='Gulpfile.coffee']:before,
+span.icon[data-name='gulpfile.coffee']:before,
+span.icon[data-name='Gulpfile.js']:before,
+span.icon[data-name='gulpfile.js']:before {
   .gulp-icon;
 }
 
 // Elixir
-[data-name$='.ex']:before,
-[data-name$='.exs']:before {
+span.icon[data-name$='.ex']:before,
+span.icon[data-name$='.exs']:before {
   .elixir-icon;
 }
 
 // Go
-[data-name$='.go']:before {
+span.icon[data-name$='.go']:before {
   .go-icon;
 }
 
 // Specs
-[data-name$='spec.rb']:before,
-[data-name$='-spec.coffee']:before,
-[data-name$='spec.exs']:before,
-[data-name$='test.exs']:before {
+span.icon[data-name$='spec.rb']:before,
+span.icon[data-name$='-spec.coffee']:before,
+span.icon[data-name$='spec.exs']:before,
+span.icon[data-name$='test.exs']:before {
   .test-file-icon;
 }
 
 // Cucumber files
-[data-name$='.feature']:before {
+span.icon[data-name$='.feature']:before {
   .cucumber-icon;
 }
 
