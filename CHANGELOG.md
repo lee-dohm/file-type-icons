@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## **v1.0.0** &mdash; *Released: 18 March 2016*
+
+* [#26](https://github.com/lee-dohm/file-type-icons/issues/26) &mdash; Fix doubled icons and misalignment on Nuclide tree view
+
 ## **v0.7.4** &mdash; *Released: 13 November 2015*
 
 * PR [#24](https://github.com/lee-dohm/file-type-icons/pull/24) by [@tonatiuh](https://github.com/tonatiuh)
