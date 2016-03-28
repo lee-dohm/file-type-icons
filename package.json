@@ -3,6 +3,7 @@
   "version": "1.0.1",
   "description": "Changes the icon for files in the Tree View and Tabs to reflect the file's type",
   "author": "Lee Dohm <lee@lee-dohm.com>",
+  "contributors": [],
   "keywords": [
     "file",
     "type",
@@ -11,7 +12,10 @@
     "tabs"
   ],
   "repository": "https://github.com/lee-dohm/file-type-icons",
+  "bugs": "https://github.com/lee-dohm/file-type-icons/issues",
+  "homepage": "https://atom.io/packages/file-type-icons",
   "license": "MIT",
+  "dependencies": {},
   "engines": {
     "atom": ">=1.6.0 <2.0.0"
   }
