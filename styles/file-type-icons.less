@@ -8,32 +8,31 @@
   }
 }
 
-.tree-view:not(.nuclide-file-tree) {
+.tab {
   [data-name]:before {
-    top: 4px;
-  }
-
-  .icon-repo:before {
-    top: 11px;
+    margin-right: @component-icon-size * 0.2;
+    position: relative;
   }
 }
 
 .tab,
 .tree-view:not(.nuclide-file-tree) {
   [data-name]:before {
-    margin-right: 5px;
-    position: relative;
     font-family: 'Octicons Regular';
     font-weight: normal;
     font-style: normal;
     display: inline-block;
-    line-height: @component-line-height;
     text-align: center;
     text-decoration: none;
     font-size: @component-icon-size;
     width: @component-icon-size;
     height: @component-icon-size;
     -webkit-font-smoothing: antialiased;
+  }
+
+  .icon-file-directory:before {
+    top: @component-icon-size * 0.1;
+    position: relative;
   }
 
   // Coffeescript files
