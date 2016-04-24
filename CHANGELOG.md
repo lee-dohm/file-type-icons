@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## **v1.2.0** &mdash; *Released: 25 April 2016*
+
+* [#29](https://github.com/lee-dohm/file-type-icons/issues/29) - Add files beginning with `.` to list of in-project configuration files
+* [#30](https://github.com/lee-dohm/file-type-icons/issues/30) - Add `.pug` to list of template files
+
 ## **v1.1.0** &mdash; *Released: 24 April 2016*
 
 * [PR #34](https://github.com/lee-dohm/file-type-icons/pull/34) by [@swrobel](https://github.com/swrobel) - Add ReactJS icons
