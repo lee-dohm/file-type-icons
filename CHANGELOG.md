@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## **v1.1.0** &mdash; *Released: 24 April 2016*
+
+* [PR #34](https://github.com/lee-dohm/file-type-icons/pull/34) by [@swrobel](https://github.com/swrobel) - Add ReactJS icons
+* [#27](https://github.com/lee-dohm/file-type-icons/issues/27) - Fix misalignment of folder and repo icons in default themes
+
 ## **v1.0.1** &mdash; *Released: 19 March 2016*
 
 * Fix stuff that got broken in the fix for Nuclide
