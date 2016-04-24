@@ -35,6 +35,14 @@
     position: relative;
   }
 
+  // In project configuration files
+  [data-name^='.']:before,
+  [data-name$='.json']:before,
+  [data-name$='.cson']:before,
+  [data-name$='.yml']:before {
+    .configuration-icon;
+  }
+
   // Coffeescript files
   [data-name$='.coffee']:before,
   [data-name$='.litcoffee']:before,
@@ -127,15 +135,8 @@
     .template-icon;
   }
 
-  // In project configuration files
-  [data-name$='.json']:before,
-  [data-name$='.cson']:before,
-  [data-name$='.yml']:before {
-    .configuration-icon;
-  }
-
   // DS_Store
-  [data-name$='.DS_Store']:before,
+  [data-name='.DS_Store']:before,
   [data-name*='.sublime-']:before {
     .low-level-settings-icon;
   }

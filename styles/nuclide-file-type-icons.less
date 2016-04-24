@@ -24,6 +24,14 @@
     top: 11px;
   }
 
+  // In project configuration files
+  span.icon[data-name^='.']:before,
+  span.icon[data-name$='.json']:before,
+  span.icon[data-name$='.cson']:before,
+  span.icon[data-name$='.yml']:before {
+    .configuration-icon;
+  }
+
   // Coffeescript files
   span.icon[data-name$='.coffee']:before,
   span.icon[data-name$='.litcoffee']:before,
@@ -114,13 +122,6 @@
   span.icon[data-name$='.slim']:before,
   span.icon[data-name$='.twig']:before {
     .template-icon;
-  }
-
-  // In project configuration files
-  span.icon[data-name$='.json']:before,
-  span.icon[data-name$='.cson']:before,
-  span.icon[data-name$='.yml']:before {
-    .configuration-icon;
   }
 
   // DS_Store
