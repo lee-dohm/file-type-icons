@@ -258,8 +258,8 @@
   }
 
   // Haskell files
-  [data-name$='.hs']:before,
-  [data-name$='.lhs']:before {
+  :not([data-name$='Spec.hs'])[data-name$='.hs']:before,
+  :not([data-name$='Spec.lhs'])[data-name$='.lhs']:before {
     .haskell-icon;
   }
 
