@@ -241,8 +241,8 @@
   }
 
   // Haskell
-  span.icon[data-name$='.hs']:before,
-  span.icon[data-name$='.lhs']:before {
+  span.icon:not([data-name$='Spec.hs'])[data-name$='.hs']:before,
+  span.icon:not([data-name$='Spec.lhs'])[data-name$='.lhs']:before {
     .haskell-icon;
   }
 
