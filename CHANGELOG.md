@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## **v1.2.1** &mdash; *Released: 2016-07-05*
+
+* [#42](https://github.com/lee-dohm/file-type-icons/issues/42) - Add a star icon for groovy files
+
 ## **v1.2.0** &mdash; *Released: 25 April 2016*
 
 * [#29](https://github.com/lee-dohm/file-type-icons/issues/29) - Add files beginning with `.` to list of in-project configuration files
