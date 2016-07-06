@@ -1,8 +1,13 @@
 # CHANGELOG
 
-## **v1.2.1** &mdash; *Released: 2016-07-05*
+## **v1.3.1** &mdash; *Released: 2016-07-05*
 
 * [#42](https://github.com/lee-dohm/file-type-icons/issues/42) - Add a star icon for groovy files
+
+## **v1.3.0** &mdash; *Released: 15 May 2016*
+
+* [PR #31](https://github.com/lee-dohm/file-type-icons/pull/31) by [@swrobel](https://github.com/swrobel) - Files ending in `test.rb` should be considered tests
+* [PR #35](https://github.com/lee-dohm/file-type-icons/pull/35) by [@swrobel](https://github.com/swrobel) - Factory icon
 
 ## **v1.2.0** &mdash; *Released: 25 April 2016*
 

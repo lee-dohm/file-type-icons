@@ -259,6 +259,7 @@
 
   // Specs
   [data-name$='spec.rb']:before,
+  [data-name$='test.rb']:before,
   [data-name$='-spec.coffee']:before,
   [data-name$='spec.exs']:before,
   [data-name$='test.exs']:before {
@@ -274,6 +275,13 @@
   [data-name$='.jsx']:before,
   [data-name$='.cjsx']:before {
     .react-icon;
+  }
+
+  // Factory files
+  [data-name$='_factory.rb']:before,
+  [data-name$='_fabricator.rb']:before,
+  [data-name$='_fixture.rb']:before {
+    .factory-icon;
   }
 
   // Groovy files

@@ -242,6 +242,7 @@
 
   // Specs
   span.icon[data-name$='spec.rb']:before,
+  span.icon[data-name$='test.rb']:before,
   span.icon[data-name$='-spec.coffee']:before,
   span.icon[data-name$='spec.exs']:before,
   span.icon[data-name$='test.exs']:before {
@@ -259,8 +260,15 @@
     .react-icon;
   }
 
+  // Factory files
+  span.icon[data-name$='_factory.rb']:before,
+  span.icon[data-name$='_fabricator.rb']:before,
+  span.icon[data-name$='_fixture.rb']:before {
+    .factory-icon;
+  }
+
   // Groovy files
-  [data-name$='.groovy']:before {
+  span.icon[data-name$='.groovy']:before {
     .groovy-icon;
   }
 
