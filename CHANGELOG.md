@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## **v1.3.2** &mdash; *Released: 2016-07-26*
+
+* [PR #44](https://github.com/lee-dohm/file-type-icons/pull/44) by [@MattDiMu](https://github.com/MattDiMu) - Show gulp icon for `gulpfile.babel.js`
+
 ## **v1.3.1** &mdash; *Released: 2016-07-05*
 
 * [#42](https://github.com/lee-dohm/file-type-icons/issues/42) - Add a star icon for groovy files
