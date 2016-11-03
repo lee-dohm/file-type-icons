@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## **v1.3.3** &mdash; *Released: 2016-11-03*
+
+* [PR #46](https://github.com/lee-dohm/file-type-icons/pull/46) by [@jordie23](https://github.com/jordie23) - Add PHP icon
+
 ## **v1.3.2** &mdash; *Released: 2016-07-26*
 
 * [PR #44](https://github.com/lee-dohm/file-type-icons/pull/44) by [@MattDiMu](https://github.com/MattDiMu) - Show gulp icon for `gulpfile.babel.js`
