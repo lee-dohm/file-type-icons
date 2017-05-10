@@ -2,6 +2,11 @@
 @import "icons";
 @import "ui-variables";
 
+.tab .title {
+	// Long file names should not wrap under icon
+	white-space: nowrap;
+}
+
 .tab {
   [data-name]:before {
     top: inherit;
@@ -55,8 +60,9 @@
     .java-icon;
   }
 
-  // JavaScript files
-  [data-name$='.js']:before {
+  // JavaScript files (there is no icon for TypeScript yet, so use JS)
+  [data-name$='.js']:before,
+  [data-name$='.ts']:before {
     .javascript-icon;
   }
 
