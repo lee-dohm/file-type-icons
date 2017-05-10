@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## **v1.3.4** &mdash; *Released: 2017-05-10*
+
+* [PR #40](https://github.com/lee-dohm/file-type-icons/pull/40) by [@cmd-johnson](https://github.com/cmd-johnson) - Add Haskell icons
+* [PR #50](https://github.com/lee-dohm/file-type-icons/pull/50) - Add lock icon to `package-lock.json` files
+
 ## **v1.3.3** &mdash; *Released: 2016-11-03*
 
 * [PR #46](https://github.com/lee-dohm/file-type-icons/pull/46) by [@jordie23](https://github.com/jordie23) - Add PHP icon
