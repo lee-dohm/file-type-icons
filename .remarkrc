@@ -1,0 +1,11 @@
+{
+  "plugins": {
+    "lint": {
+        "no-missing-blank-lines": false,
+        "no-multiple-toplevel-headings": false,
+        "list-item-bullet-indent": false,
+        "list-item-indent": "space",
+        "list-item-spacing": false
+    }
+  }
+}

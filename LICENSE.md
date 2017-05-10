@@ -1,3 +1,5 @@
+# LICENSE
+
 Copyright &copy; 2014-2016 [Lee Dohm](http://www.lee-dohm.com)
 
 Permission is hereby granted, free of charge, to any person obtaining
