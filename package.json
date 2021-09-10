@@ -1,0 +1,18 @@
+{
+  "name": "file-icons",
+  "version": "1.0.0",
+  "description": "[Forked from unmaintained `file-type-icons`] Changes the icon for files in the Tree View and Tabs to reflect the file's type",
+  "author": "Dusty <mrgeek484@gmail.com>",
+  "keywords": [
+    "file",
+    "type",
+    "icons",
+    "tree-view",
+    "tabs"
+  ],
+  "repository": "https://github.com/DET171/file-type-icons",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.6.0"
+  }
+}
